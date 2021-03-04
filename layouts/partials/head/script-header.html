@@ -1,0 +1,2 @@
+{{ $script := resources.Get "js/vendor/turbo.es5-umd.js" | resources.Minify | resources.Fingerprint }}
+<script src="{{ $script.Permalink }}"></script>
