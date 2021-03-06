@@ -5,7 +5,7 @@ lead: "New stuff! Search, zoom, more highlighting"
 date: 2020-12-23T17:46:21-06:00
 lastmod: 2021-03-05T17:46:21-06:00
 draft: false
-images: []
+images: ["images/replace.png"]
 contributors: []
 ---
 
@@ -14,6 +14,9 @@ This update adds a bunch of stuff!
 ## Find and Replace
 
 This and UI scaling are the two most important features I've wanted to add. It (hopefully) works the way you'd expect.
+
+
+{{< img-simple src="images/replace.png" alt="Find and replace dialog with several found items" >}}
 
 
 ## UI Scaling / Font Size
@@ -28,15 +31,21 @@ JotDown now supports two new chart types.
 
 State diagrams are similar to flowcharts, but emphasize changes in state.
 
+{{< img-simple src="images/statechart.png" alt="Editor with markup for two state diagrams, and two matching state diagrams in preview window" >}}
+
 I accidentally excluded this one from the "Show Me an Example" file, but it's still supported in the current version, and the example will be fixed in the next update.
 
 ### Flowchart
 
 This is really a beta test for an expanded graph type. Flowchart adds more arrow types and subgraphs, but shares the same syntax with graph. Eventually, both flowchart and graph will share the same features.
 
+{{< img-simple src="images/flowchart.png" alt="Editor with markup for a flowchart, and a matching flowchart diagram in preview window" >}}
+
 ## Syntax Highlighting
 
 Custom syntax highlighting has been added for all supported chart and music block types. Here are some examples:
+
+{{< img-simple src="images/syntaxhighlight.png" alt="Editor showing syntax highlighting for graphs, charts, and music markup" >}}
 
 ## Less Exciting Stuff
 

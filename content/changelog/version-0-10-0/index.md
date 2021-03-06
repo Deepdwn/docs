@@ -5,9 +5,11 @@ lead: "Spellcheck Edition"
 date: 2020-12-04T17:38:32-06:00
 lastmod: 2021-03-05T17:38:32-06:00
 draft: false
-images: []
+images: ["images/spellcheck.gif"]
 contributors: []
 ---
+
+{{< img-simple src="images/spellcheck.gif" alt="Spellchecking, word replacement and add to/remove from dictionary" >}}
 
 JotDown now supports spellchecking! Finally.
 

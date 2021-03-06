@@ -26,7 +26,8 @@ Having all of the app settings in the main menu was getting ungainly, since ther
 
 Deepdwn now has a preferences panel, accessible from the gear icon in the lower left corner of the app. The original menu is still available by pressing Alt (Mac folks' menus are always visible so this part doesn't apply).
 
-![Preferences button](https://img.itch.zone/aW1nLzUxNDA3OTUucG5n/original/wyG4Oi.png)
+
+{{< img-simple src="images/tooltip.png" alt="Preference button with tooltip" >}}
 
 Also there are now tooltips for some items!
 
@@ -36,7 +37,7 @@ Several actions now have dedicated buttons in a new toolbar at the top of the ap
 
 From left to right here, those are Help (creates a new markdown example document), distraction-free mode, fullscreen, and show preview window.
 
-![Deepdwn top menu bar](https://img.itch.zone/aW1nLzUxNDA4MDYucG5n/original/0H%2FDFp.png)
+{{< img-simple src="images/toolbar.png" alt="Application top toolbar with help and other icons" >}}
 
 ## Mixed monospace and variable-width font handling
 
@@ -46,10 +47,10 @@ However, for markdown, monospace fonts are pretty important, since much of the f
 
 To that end, Deepdwn handles these fonts via a new "mixed monospace" mode. Where it's important, Deepdwn will automatically use the original monospace font to preserve alignment and indentation, and switch back.
 
-![Mixed monospace text mode](https://img.itch.zone/aW1nLzUxNDA3ODcucG5n/original/5ATPt6.png)
+
+{{< img-simple src="images/mixed-monospace.png" alt="Editor with mix of monospace and variable spaced fonts to maintain indentation" >}}
 
 You can find this setting in the new preferences panel.
-
 
 ## Automatic dark mode
 
@@ -59,7 +60,7 @@ When enabled, Deepdown will switch to dark and light mode based on your system's
 
 In addition to dark and light modes, you can now select the primary, app-wide accent color. Select one of the defaults, or choose an exact color to use.
 
-![Accent color selection](https://img.itch.zone/aW1nLzUxNDA5MDcuZ2lm/original/PyrEK%2B.gif)
+{{< img-simple src="images/accent-color.gif" alt="Accent color selection in popup" >}}
 
 ## Drafts everywhere
 

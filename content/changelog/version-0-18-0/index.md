@@ -4,6 +4,7 @@ description: "Accessibility improvements"
 lead: "Accessibility improvements"
 date: 2021-02-28T17:00:16-06:00
 draft: false
+images: ["images/colorpicker.png"]
 ---
 
 This update brings a number of changes to improve Deepdwn's accessibility, particularly for keyboard-only and screen reader users.
@@ -28,7 +29,7 @@ On some systems, the preset colors for accent color selection are tiny and awkwa
 
 The preset picker has been replaced with a big list instead. You can still select a custom color by clicking the Current Color button in preferences.
 
-![Accent color picker with currently selected color and several presets with labeled colors](https://img.itch.zone/aW1nLzUzMjA0MDcucG5n/original/9ExlCe.png)
+{{< img-simple src="images/colorpicker.png" alt="Accent color picker with currently selected color and several presets with labeled colors" >}}
 
 ### Preferences button
 

@@ -9,9 +9,12 @@ images: []
 contributors: []
 ---
 
-## Ascii Tables
+## Ascii Tabs
 
 JotDown now supports guitar tabs in the (much more common) ascii tab format. These are properly syntax highlighted in the editor like the other musical formats. An example has been added to the _Show Me an Example_ document.
+
+
+{{< img-simple src="images/asciitab.png" alt="Editor with ascii tabs and rendered version in preview window" >}}
 
 ## Minor features
 

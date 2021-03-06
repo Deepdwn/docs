@@ -5,10 +5,12 @@ lead: "Big feature update! (music formats, save as pdf, other good stuff)"
 date: 2020-12-17T17:42:23-06:00
 lastmod: 2021-03-05T17:42:23-06:00
 draft: false
-images: []
+images: ["images/music.gif"]
 contributors: []
 ---
 
+
+{{< img-simple src="images/music.gif" alt="Entering data for sheet music and guitar tabs, and rendering them at the same time" >}}
 This updated ended up larger than expected, but I'm excited for these changes.
 
 ## Music!
@@ -36,4 +38,4 @@ The print button has been removed from the rendered preview display, and replace
 * JotDown has nicer (slightly thinner) scrollbars that blend in better and are less in the way.
 * In distraction-free mode, the outline panel has a more subtle color scheme, and brightens on hover.
 * Spellchecking is now disabled inside graph/diagram, music and tab code blocks.
-* You can now exit distraction free mode by hitting escape twice quickly, in addition to the default shortcut (Shift + F11)
+* You can now exit distraction free mode by hitting escape twice quickly, in addition to the default shortcut (<kbd>Shift</kbd><kbd>F11</kbd>)
