@@ -5,7 +5,7 @@ lead: "Added autosave, outline view and scrolling"
 date: 2019-11-24T16:58:09-06:00
 lastmod: 2021-03-05T16:58:09-06:00
 draft: false
-images: []
+images: ["images/scrolling.gif"]
 ---
 
 This release adds autosave (finally), and a document outilne.
@@ -20,3 +20,4 @@ A new tab to the left of the document now displays the document outline, based o
 
 The addition of the third tab is a little bit awkward to me, and makes resizing and collapsing these sections a bit funky. Hope to improve the UI in this area at some point.
 
+{{< img-simple src="images/scrolling.gif" alt="Synchronized scrolling between editor and preview and outline panel" >}}
