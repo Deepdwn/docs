@@ -21,21 +21,21 @@ This is not a complete list
 
 Shortcut | Description
 ---: | :---
-<kbd>Escape</kbd> | Enter command mode
-<kbd>i</kbd> | Enter insert mode before cursor
-<kbd>I<kbd> | Enter insert mode at the beginning of the line
-<kbd>a<kbd> | Enter insert mode after the cursor
-<kbd>A<kbd> | Enter insert mode at the end of the line
-<kbd>o<kbd> | Enter insert mode after the current line
-<kbd>O<kbd> | Enter insert mode before the current line
-<kbd>:</kbd> | Last line mode (prompt)
-<kbd>Ctrl</kbd><kbd>c</kbd> | Exit insert mode and abort current command
-<kbd>v</kbd> | Enter visual mode
-<kbd>V</kbd> | Enter visual line mode
-<kbd>Ctrl</kbd><kbd>v</kbd> | Enter visual block mode
-<kbd>s</kbd> | Delete character and enter insert mode
-<kbd>S</kbd> | Delete line and enter insert mode
-<kbd>R</kbd> | Enter replace mode
+{{< keystroke "Escape" >}} | Enter command mode
+{{< keystroke "i" >}} | Enter insert mode before cursor
+{{< keystroke "I" >}} | Enter insert mode at the beginning of the line
+{{< keystroke "a" >}} | Enter insert mode after the cursor
+{{< keystroke "A" >}} | Enter insert mode at the end of the line
+{{< keystroke "o" >}} | Enter insert mode after the current line
+{{< keystroke "O" >}} | Enter insert mode before the current line
+{{< keystroke ":" >}} | Last line mode (prompt)
+{{< keystroke "Ctrl c" >}} | Exit insert mode and abort current command
+{{< keystroke "v" >}} | Enter visual mode
+{{< keystroke "V" >}} | Enter visual line mode
+{{< keystroke "Ctrl v" >}} | Enter visual block mode
+{{< keystroke "s" >}} | Delete character and enter insert mode
+{{< keystroke "S" >}} | Delete line and enter insert mode
+{{< keystroke "R" >}} | Enter replace mode
 </div>
 
 ## Cursor movement
@@ -44,44 +44,44 @@ Shortcut | Description
 
 Shortcut | Description
 ---: | :---
-<kbd>h/j/k/l</kbd> | Move cursor left/down/up/right
-<kbd>0</kbd> | Move cursor to beginning of line
-<kbd>$</kbd> | Move cursor to end of line
-<kbd>^</kbd> | Move cursor to first non-empty character of line
-<kbd>w</kbd> | Move cursor forward one word
-<kbd>W</kbd> | Move cursor forward one word, based on whitespace
-<kbd>6</kbd><kbd>w</kbd> | Move cursor forward 6 words
-<kbd>b</kbd> | Move cursor backward one word
-<kbd>B</kbd> | Move cursor backward one word, based on whitespace
-<kbd>6</kbd><kbd>b</kbd> | Move cursor backward 6 words
-<kbd>e</kbd> | Move cursor to end of word
-<kbd>ge</kbd> | Move cursor backward one word, to end of word
-<kbd>6</kbd><kbd>e</kbd> | Move cursor forward 6 words, to end of word
-<kbd>f</kbd><kbd>c</kbd> | Move cursor forward to next character `c`
-<kbd>F</kbd><kbd>c</kbd> | Move cursor backward to previous character `c`
-<kbd>t</kbd><kbd>c</kbd> | Move cursor to before next character `c`
-<kbd>T</kbd><kbd>c</kbd> | Move cursor to after previous character `c`
-<kbd>;</kbd> | Repeat previous `t` or `f` movement, forward
-<kbd>,</kbd> | Repeat previous `t` or `f` movement, backward
-<kbd>Ctrl</kbd><kbd>b/f</kbd> | Move cursor one page up/down
-<kbd>Ctrl</kbd><kbd>u/d</kbd> | Move cursor half a page up/down
-<kbd>H<kbd> | Move cursor to top of visible screen
-<kbd>M</kbd> | Move cursor to middle of visible screen
-<kbd>L</kbd> | Move cursor to bottom of visible screen
-<kbd>gg</kbd> | Move cursor to beginning of document
-<kbd>G</kbd> | Move cursor to end of document
-<kbd>16</kbd><kbd>G</kbd> | Move cursor to line 16
-<kbd>zt</kbd> | Scroll current line to top of screen
-<kbd>zz</kbd> | Scroll current line to center of screen
-<kbd>zb</kbd> | Scroll current line to bottom of screen
-<kbd>Ctrl</kbd><kbd>e</kbd> | Scroll screen down one line
-<kbd>Ctrl</kbd><kbd>y</kbd> | Scroll screen up one line
-<kbd>(</kbd> | Move cursor to next sentence
-<kbd>(</kbd> | Move cursor to previous sentence
-<kbd>}</kbd> | Move cursor to next paragraph
-<kbd>{</kbd> | Move cursor to previous paragraph
-<kbd>Ctrl</kbd><kbd>o</kbd> | Move cursor to back (in location history)
-<kbd>Ctrl</kbd><kbd>i</kbd> | Move cursor to forward (in location history)
+{{< keystroke "h/j/k/l" >}} | Move cursor left/down/up/right
+{{< keystroke "0" >}} | Move cursor to beginning of line
+{{< keystroke "$" >}} | Move cursor to end of line
+{{< keystroke "^" >}} | Move cursor to first non-empty character of line
+{{< keystroke "w" >}} | Move cursor forward one word
+{{< keystroke "W" >}} | Move cursor forward one word, based on whitespace
+{{< keystroke "6 w" >}} | Move cursor forward 6 words
+{{< keystroke "b" >}} | Move cursor backward one word
+{{< keystroke "B" >}} | Move cursor backward one word, based on whitespace
+{{< keystroke "6 b" >}} | Move cursor backward 6 words
+{{< keystroke "e" >}} | Move cursor to end of word
+{{< keystroke "ge" >}} | Move cursor backward one word, to end of word
+{{< keystroke "6 e" >}} | Move cursor forward 6 words, to end of word
+{{< keystroke "f c" >}} | Move cursor forward to next character `c`
+{{< keystroke "F c" >}} | Move cursor backward to previous character `c`
+{{< keystroke "t c" >}} | Move cursor to before next character `c`
+{{< keystroke "T c" >}} | Move cursor to after previous character `c`
+{{< keystroke ";" >}} | Repeat previous `t` or `f` movement, forward
+{{< keystroke "," >}} | Repeat previous `t` or `f` movement, backward
+{{< keystroke "Ctrl b/f" >}} | Move cursor one page up/down
+{{< keystroke "Ctrl u/d" >}} | Move cursor half a page up/down
+{{< keystroke "H" >}} | Move cursor to top of visible screen
+{{< keystroke "M" >}} | Move cursor to middle of visible screen
+{{< keystroke "L" >}} | Move cursor to bottom of visible screen
+{{< keystroke "gg" >}} | Move cursor to beginning of document
+{{< keystroke "G" >}} | Move cursor to end of document
+{{< keystroke "16 G" >}} | Move cursor to line 16
+{{< keystroke "zt" >}} | Scroll current line to top of screen
+{{< keystroke "zz" >}} | Scroll current line to center of screen
+{{< keystroke "zb" >}} | Scroll current line to bottom of screen
+{{< keystroke "Ctrl e" >}} | Scroll screen down one line
+{{< keystroke "Ctrl y" >}} | Scroll screen up one line
+{{< keystroke "(" >}} | Move cursor to next sentence
+{{< keystroke "(" >}} | Move cursor to previous sentence
+{{< keystroke "}" >}} | Move cursor to next paragraph
+{{< keystroke "{" >}} | Move cursor to previous paragraph
+{{< keystroke "Ctrl o" >}} | Move cursor to back (in location history)
+{{< keystroke "Ctrl i" >}} | Move cursor to forward (in location history)
 
 </div>
 
@@ -91,24 +91,24 @@ Shortcut | Description
 
 Shortcut | Description
 ---: | :---
-<kbd>x</kbd> | Delete character
-<kbd>r</kbd> | Replace character
-<kbd>dd</kbd> | Cut line
-<kbd>yy</kbd> | Yank line
-<kbd>p</kbd> | Paste
-<kbd>P</kbd> | Paste before
-<kbd>u</kbd> | Undo
-<kbd>Ctrl</kbd><kbd>r</kbd> | Redo
-<kbd>~</kbd> | Toggle case
-<kbd>gU</kbd> | Uppercase
-<kbd>gu</kbd> | Lowercase
-<kbd>gUU</kbd> | Uppercase current line
-<kbd>guu</kbd> | Lowercase current line
-<kbd>></kbd> | Indent
-<kbd>\<</kbd> | Unindent
-<kbd>d/x</kbd> | Delete selection
-<kbd>s</kbd> | Replace selection
-<kbd>y</kbd> | Yank selection
+{{< keystroke "x" >}} | Delete character
+{{< keystroke "r" >}} | Replace character
+{{< keystroke "dd" >}} | Cut line
+{{< keystroke "yy" >}} | Yank line
+{{< keystroke "p" >}} | Paste
+{{< keystroke "P" >}} | Paste before
+{{< keystroke "u" >}} | Undo
+{{< keystroke "Ctrl r" >}} | Redo
+{{< keystroke "~" >}} | Toggle case
+{{< keystroke "gU" >}} | Uppercase
+{{< keystroke "gu" >}} | Lowercase
+{{< keystroke "gUU" >}} | Uppercase current line
+{{< keystroke "guu" >}} | Lowercase current line
+{{< keystroke ">" >}} | Indent
+{{< keystroke "<" >}} | Unindent
+{{< keystroke "d/x" >}} | Delete selection
+{{< keystroke "s" >}} | Replace selection
+{{< keystroke "y" >}} | Yank selection
 
 </div>
 
@@ -119,11 +119,11 @@ Shortcut | Description
 
 Shortcut | Description
 ---: | :---
-<kbd>q</kbd><kbd>c</kbd> | Record macro named `c`
-<kbd>q</kbd> | (While recording) stop recording
-<kbd>@</kbd><kbd>c</kbd> | Execute macro named `c`
-<kbd>@</kbd><kbd>6</kbd><kbd>c</kbd> | Execute macro named `c` 6 times
-<kbd>@@</kbd> | Execute macro again
+{{< keystroke "q c" >}} | Record macro named `c`
+{{< keystroke "q" >}} | (While recording) stop recording
+{{< keystroke "@ c" >}} | Execute macro named `c`
+{{< keystroke "@ 6 c" >}} | Execute macro named `c` 6 times
+{{< keystroke "@@" >}} | Execute macro again
 </div>
 
 

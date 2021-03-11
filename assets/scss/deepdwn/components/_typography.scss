@@ -1,0 +1,32 @@
+kbd {
+  margin: 0 4px;
+  background-color: lighten($body-color-dark, 5%);
+  color: $body-bg-dark;
+  border: 1px solid rgb(163, 163, 163);
+  @include dark() {
+    border-color: #556475;
+    background-color: #15191d;
+    color: $body-color-dark;
+  }
+}
+
+
+code {
+  padding-top: 0.125rem;
+  padding-bottom: 0.125rem;
+  border: 1px solid $brown;
+  @include dark() {
+    border-color: lighten($body-bg-dark, 30%);
+  }
+}
+pre code {
+  border: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: #e01364;
+
+  @include dark() {
+    color: #ff247a;
+  }
+}

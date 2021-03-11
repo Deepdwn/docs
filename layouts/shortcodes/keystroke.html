@@ -1,0 +1,14 @@
+{{ $keyString := "" }}
+{{ if .IsNamedParams }}
+  {{ $keyString = .Get "keys" }}
+{{ else }}
+  {{ $keyString = .Get 0 }}
+{{ end }}
+
+{{ $keys := split $keyString " " }}
+
+<kbd>
+{{ range $keys -}}
+<kbd>{{ . | safeHTML }}</kbd>
+{{ end -}}
+</kbd>
