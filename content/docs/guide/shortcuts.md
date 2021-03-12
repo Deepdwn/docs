@@ -8,7 +8,7 @@ draft: false
 images: []
 menu: 
   docs:
-    parent: "prologue"
+    parent: "guide"
 ---
 
 ## Application shortcuts
@@ -17,7 +17,6 @@ menu:
 
 Shortcut | Description
 ---: | ---
-{{< keystroke "Ctrl ." >}} | Open (test)
 {{< keystroke "Ctrl ." >}} | Open preferences
 {{< keystroke "Ctrl N" >}}  | New file
 {{< keystroke "Ctrl S" >}} | Save file
@@ -39,7 +38,7 @@ Shortcut | Description
 
 Shortcut | Description
 ---: | ---
-{{< keystroke "Ctrl M" >}} | Toggle Tab key changes focus vs adding indentation
+{{< keystroke "Ctrl M" >}} | Toggle between `Tab` key changing focus vs adding indentation
 {{< keystroke "Ctrl Shift M" >}} | Move focus to editor panel
 {{< keystroke "F6" >}} | Move focus to next application panel
 {{< keystroke "Shift F6" >}} | Move focus to previous application panel
@@ -51,6 +50,8 @@ Shortcut | Description
 
 Shortcut | Description
 ---: | :---
+{{< keystroke "Ctrl ]" >}} | Indent the current line
+{{< keystroke "Ctrl [" >}} | Deindent the current line
 {{< keystroke "Ctrl L" >}} |  Select the current line
 {{< keystroke "Ctrl Shift L" >}} |  Convert the current multiline selection to multiple selections, with their own cursors
 {{< keystroke "Escape" >}} |  If you have multiple selections, drop all except the first one

@@ -13,36 +13,20 @@ weight: 630
 toc: true
 ---
 
-## Hyas?
+## Will Deepdwn support my cloud storage service?
 
-Doks is a [Hyas theme](https://gethyas.com/themes/doks/) build by the creator of Hyas.
+There are no plans to integrate Deepdwn with any synchronization services.
 
-## Footer notice?
+However, Deepdwn is designed to work with any services you already have set up. Just sync your notes directory like you would any other.
 
-Please keep it in place.
+## Will Deepdwn add a WYSIWYG mode?
 
-## Keyboard shortcuts for search?
+I'd like to have this option eventually, but it's a huge feature and it's unlikely to be added any time soon.
 
-- focus: `/`
-- select: `↓` and `↑`
-- open: `Enter`
-- close: `Esc`
+## Where can I get support?
 
-## Other documentation?
+[Support on Itch.io](https://itch.io/t/1191275/support-requests-please-read-first)
 
-- [Netlify](https://docs.netlify.com/)
-- [Hugo](https://gohugo.io/documentation/)
+## Where can I add feature requests?
 
-## Can I get support?
-
-Create a topic:
-
-- [Netlify Community](https://community.netlify.com/)
-- [Hugo Forums](https://discourse.gohugo.io/)
-
-## Contact the creator?
-
-Send `h-enk` a message:
-
-- [Netlify Community](https://community.netlify.com/)
-- [Hugo Forums](https://discourse.gohugo.io/)
+[Request forum on Itch.io](https://itch.io/board/1147312/requests)
