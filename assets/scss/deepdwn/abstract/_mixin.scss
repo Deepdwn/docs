@@ -1,0 +1,8 @@
+@mixin dark {
+  $selection: &;
+  @at-root body.dark {
+    #{$selection} {
+      @content;
+    }
+  }
+}

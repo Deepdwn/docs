@@ -1,0 +1,18 @@
+@include media-breakpoint-up(lg) {
+  .docs-links {
+    margin-right: 0;
+  }
+}
+
+.docs-links {
+  .published {
+    color: $gray-500;
+    @include dark() {
+      color: $gray-600;
+    }
+  }
+
+  ul ul {
+    padding-left: 10px;
+  }
+}

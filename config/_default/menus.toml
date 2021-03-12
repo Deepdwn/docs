@@ -1,8 +1,8 @@
 [[docs]]
-  name = "Prologue"
+  name = "Guide"
   weight = 10
-  identifier = "prologue"
-  url = "/docs/prologue/"
+  identifier = "guide"
+  url = "/docs/guide/"
 
 [[docs]]
   name = "Help"
@@ -12,12 +12,13 @@
 
 [[main]]
   name = "Docs"
-  url = "/docs/prologue/introduction/"
+  url = "/docs/guide/getting-started/"
   weight = 10
 
 [[main]]
   name = "Changelog"
   url = "/changelog/"
+  identifier = "changelog"
   weight = 20
 
 [[social]]

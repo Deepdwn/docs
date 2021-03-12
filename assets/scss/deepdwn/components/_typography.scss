@@ -1,8 +1,18 @@
 kbd {
-  margin: 0 4px;
+  // all: unset;
+  padding: 0;
+  background: none;
+  margin: 0;
+  white-space: nowrap;
+}
+
+kbd kbd {
+  padding: 0.2rem 0.4rem;
+  margin: 0;
   background-color: lighten($body-color-dark, 5%);
   color: $body-bg-dark;
   border: 1px solid rgb(163, 163, 163);
+  font-weight: 400;
   @include dark() {
     border-color: #556475;
     background-color: #15191d;
@@ -19,6 +29,7 @@ code {
     border-color: lighten($body-bg-dark, 30%);
   }
 }
+
 pre code {
   border: none;
 }

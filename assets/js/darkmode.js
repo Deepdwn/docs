@@ -1,12 +1,13 @@
-document.getElementById('mode').addEventListener('click', () => {
+import ready from './ready';
 
+const toggleButton = () => {
   document.body.classList.toggle('dark');
   localStorage.setItem('theme', document.body.classList.contains('dark') ? 'dark' : 'light');
+};
 
-});
-
-if (localStorage.getItem('theme') === 'dark') {
-
-  document.body.classList.add('dark');
-
-}
+ready(function () {
+  document.getElementById('mode').addEventListener('click', toggleButton)
+  if (localStorage.getItem('theme') === 'dark') {
+    document.body.classList.add('dark');
+  }
+})

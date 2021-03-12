@@ -1,0 +1,12 @@
+@import "deepdwn/theme/solarized-light";
+.chroma {
+  border: 1px solid $brown;
+}
+
+.dark {
+  @import "deepdwn/theme/dracula";
+  .chroma {
+    border-color: lighten($body-bg-dark, 30%);
+
+  }
+}

@@ -89,7 +89,7 @@ Source:
         href: "{{ .Permalink | absURL }}",
         title: {{ .Title | jsonify }},
         description: {{ .Params.description | jsonify }},
-        content: {{ .Content | jsonify }}
+        content: {{ .Plain | jsonify }}
       },
     {{ end -}}
   ];

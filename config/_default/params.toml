@@ -17,7 +17,7 @@ ogLocale = "en_US"
 ## JSON-LD
 schemaType = "Organization"
 schemaLogo = "logo-doks.png"
-schemaTwitter = "https://twitter.com/henkverlinde"
+schemaTwitter = "https://twitter.com/DeepdwnApp"
 schemaLinkedIn = ""
 schemaGitHub = "https://github.com/deepdwn"
 schemaSection = "blog"
@@ -48,7 +48,7 @@ editPage = false
 
 [options]
   lazySizes = true
-  clipBoard = true
+  clipBoard = false
   instantPage = true
   flexSearch = true
   darkMode = true
