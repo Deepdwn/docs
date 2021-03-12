@@ -5,12 +5,6 @@
 
 {{ $slice := slice $app -}}
 
-{{ if .Site.Params.options.lazySizes -}}
-  {{ $lazySizes := resources.Get "js/lazysizes.js" -}}
-  {{ $lazySizes := $lazySizes | js.Build -}}
-  {{ $slice = $slice | append $lazySizes -}}
-{{ end -}}
-
 {{ if .Site.Params.options.clipBoard -}}
   {{ $clipBoard := resources.Get "js/clipboard.js" -}}
   {{ $clipBoard := $clipBoard | js.Build -}}
@@ -28,15 +22,10 @@
   {{ $slice = $slice | append $flexSearch -}}
 {{ end -}}
 
-{{ if .Site.Params.options.darkMode -}}
-  {{ $darkMode := resources.Get "js/darkmode.js" -}}
-  {{ $darkMode := $darkMode | js.Build -}}
-  {{ $slice = $slice | append $darkMode -}}
-{{ end -}}
-
 {{ $js := $slice | resources.Concat "main.js" -}}
 
 {{ if eq (hugo.Environment) "development" -}}
+  {{ $js := $js | fingerprint }}
   <script src="{{ $js.Permalink }}" defer></script>
   {{ if .Site.Params.options.flexSearch -}}
     <script src="{{ $index.Permalink }}" defer></script>

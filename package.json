@@ -11,6 +11,7 @@
   "scripts": {
     "init": "rimraf .git && git init -b main",
     "create": "hugo new",
+    "hugo": "hugo",
     "prestart": "npm run clean",
     "start": "hugo server --disableFastRender",
     "prebuild": "npm run clean",
@@ -47,6 +48,7 @@
     "postcss-cli": "^8.3",
     "purgecss-whitelister": "^2.4",
     "rimraf": "^3.0",
+    "simple-lightbox": "^2.1.0",
     "standard-version": "^9.1",
     "stylelint": "^13.11",
     "stylelint-config-standard": "^20.0"

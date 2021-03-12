@@ -1,0 +1,14 @@
+{{ $currentPage := . -}}
+<h3>Changelog</h3>
+
+<ul class="list-unstyled">
+  {{ range where .Site.RegularPages "Section" "changelog" -}}
+  {{- $active := or (eq $currentPage . ) -}}
+  <li>
+    <a class="d-flex justify-content-between docs-link{{ if $active }} active{{ end }}" href="{{ .URL | absURL }}">
+      <span class="title">{{ .Name }}</span>
+      <span class="published text-nowrap">{{ .PublishDate.Format "Jan 2006" }}</span>
+    </a>
+  </li>
+  {{ end -}}
+<ul>

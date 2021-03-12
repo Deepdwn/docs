@@ -1,6 +1,10 @@
 {{ if ne .Params.toc false -}}
   <div class="page-links">
-    <h3>On this page</h3>
-    {{ .TableOfContents }}
+    {{ with .TableOfContents }}
+    {{ if ne . "<nav id=\"TableOfContents\"></nav>" }}
+      <h3>On this page</h3>
+      {{ . }}
+    {{ end }}
+  {{ end }}
   </div>
 {{ end -}}

@@ -1,2 +1,29 @@
-{{ $script := resources.Get "js/vendor/turbo.es5-umd.js" | resources.Minify | resources.Fingerprint }}
-<script src="{{ $script.Permalink }}"></script>
+{{ $appHead := resources.Get "js/vendor/turbo.es5-umd.js" }}
+{{ $appHead := $appHead | js.Build }}
+{{ $slice := slice $appHead -}}
+
+{{ if .Site.Params.options.darkMode -}}
+  {{ $darkMode := resources.Get "js/darkmode.js" -}}
+  {{ $darkMode := $darkMode | js.Build -}}
+  {{ $slice = $slice | append $darkMode -}}
+{{ end -}}
+
+{{ if .Site.Params.options.lazySizes -}}
+  {{ $lazySizes := resources.Get "js/lazysizes.js" -}}
+  {{ $lazySizes := $lazySizes | js.Build -}}
+  {{ $slice = $slice | append $lazySizes -}}
+{{ end -}}
+
+{{ $lightbox := resources.Get "js/lightbox.js" }}
+{{ $lightbox := $lightbox | js.Build -}}
+{{ $slice = $slice | append $lightbox }}
+
+{{ $js := $slice | resources.Concat "head.js" -}}
+
+{{ if eq (hugo.Environment) "development" -}}
+  <script src="{{ $js.Permalink }}" defer></script>
+{{ else -}}
+  {{ $js := $js | minify | fingerprint "sha512" -}}
+  {{ $index := $index | minify | fingerprint "sha512" -}}
+  <script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous" defer></script>
+{{ end -}}
