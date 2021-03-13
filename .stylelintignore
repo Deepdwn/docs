@@ -1,3 +1,5 @@
 assets/scss/components/_syntax.scss
 assets/scss/vendor
 node_modules
+assets/scss/deepdwn/vendor/*.css
+assets/scss/app.scss

@@ -10,9 +10,15 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
+        uses: actions/setup@v2
         with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+          node-version: '14'
+
+      - name: Install dependencies
+        run: yarn install --frozen-lockfile
+
+      - name: lint
+        run: yarn lint
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -21,7 +27,7 @@ jobs:
           # extended: true
 
       - name: Build
-        run: hugo --minify
+        run: yarn build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

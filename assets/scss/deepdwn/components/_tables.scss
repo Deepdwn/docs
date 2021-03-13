@@ -2,9 +2,12 @@ body.dark {
   .table {
     color: inherit;
   }
-  .table th, .table td {
+
+  .table th,
+  .table td {
     border-top-color: $border-dark;
   }
+
   .table thead th {
     border-bottom-color: $border-dark;
   }

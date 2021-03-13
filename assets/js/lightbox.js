@@ -7,6 +7,6 @@ ready(function () {
     return
   }
   new lightbox({
-    elements: lightboxes
+    elements: lightboxes,
   })
 })
