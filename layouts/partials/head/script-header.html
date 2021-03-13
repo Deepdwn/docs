@@ -21,9 +21,9 @@
 {{ $js := $slice | resources.Concat "head.js" -}}
 
 {{ if eq (hugo.Environment) "development" -}}
+  {{ $js := $js | fingerprint }}
   <script src="{{ $js.Permalink }}" defer></script>
 {{ else -}}
   {{ $js := $js | minify | fingerprint "sha512" -}}
-  {{ $index := $index | minify | fingerprint "sha512" -}}
   <script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous" defer></script>
 {{ end -}}
