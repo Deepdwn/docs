@@ -27,7 +27,7 @@ Deepdwn's interface is split into four panels. These panels can be resized by gr
 
 {{< img-simple src="images/interface-1.png" alt="Application with leftmost Filters panel highlighted" >}}
 
-The first panel, Filters, shows your tags, categories and folders. You can select these to filter the file list by that tag, category or contained in that folder, and click them again to deselect them.
+The first panel, Filters, shows your tags, categories and folders. You can select these to filter the file list (the next panel), and deselect them to see all files again.
 
 You can also double click the section headings sections to collapse them.
 
@@ -37,7 +37,7 @@ The `Drafts` filter at the top is always available. Here you'll find files which
 
 {{< img-simple src="images/interface-2.png" alt="Application with second panel, Files, highlighted" >}}
 
-The second panel, Files, displays a list of files based on ygour currently selected filters, or all files if no filters have been selected.
+The second panel, Files, displays a list of files based on your currently selected filters, or all files if no filters have been selected.
 
 Right clicking these files will display additional options, allowing you to delete files, show their location in your file system, or duplicate them as needed.
 
@@ -72,7 +72,7 @@ tags:
 # Welcome to my cake post
 ```
 
-This document has the title `My Favorite Cakes`, is in the category `Blog` and has three tags, `favorites', `🧁 baking`, and `musings. You can add as few or as many tags as you'd like.
+This document has the title `My Favorite Cakes`, is in the category `Blog` and has three tags, `favorites', `🧁 baking`, and `musings`. You can add as few or as many tags as you'd like.
 
 These are the only fields that Deepdwn uses currently, but you can add any other fields you need as well. Many other systems support markdown with the same frontmatter, so you can add what you need to support those systems.
 
