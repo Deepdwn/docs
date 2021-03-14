@@ -1,11 +1,12 @@
 ---
 title: "Shortcuts"
 description: "Application shortcut list"
-lead: ""
+lead: "Application shortcut list"
 date: 2020-10-06T08:48:45+00:00
 lastmod: 2020-10-06T08:48:45+00:00
 draft: false
 images: []
+weight: 50
 menu: 
   docs:
     parent: "guide"
@@ -79,11 +80,4 @@ Shortcut | Description
 </div>
 
 
-### Emacs
-
-[Emacs shortcuts →]({{< ref "emacs" >}})
-
-### Vim 
-
-[Vim shortcuts →]({{< ref "vim" >}})
 

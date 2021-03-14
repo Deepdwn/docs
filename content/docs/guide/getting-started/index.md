@@ -6,6 +6,7 @@ date: 2021-03-10T08:48:45+00:00
 lastmod: 2021-03-10T08:48:45+00:00
 draft: false
 images: []
+weight: 10
 menu: 
   docs:
     parent: "guide"

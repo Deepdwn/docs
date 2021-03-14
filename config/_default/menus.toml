@@ -12,7 +12,7 @@
 
 [[main]]
   name = "Docs"
-  url = "/docs/guide/getting-started/"
+  url = "/"
   weight = 10
 
 [[main]]

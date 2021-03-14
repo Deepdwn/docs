@@ -6,8 +6,8 @@ date: 2021-03-06T00:42:05-06:00
 lastmod: 2021-03-06T00:42:05-06:00
 draft: false
 images: []
-weight: 120
 toc: true
+weight: 56
 menu: 
   docs:
     parent: "Shortcuts"
