@@ -4,7 +4,7 @@
 title = "Deepdwn"
 titleSeparator = "-"
 titleAddition = "Explore, Study, Create."
-description = "Deepdwn is a markdown editor and organizer"
+description = "Deepdwn is a markdown editor and organizer for Windows, Mac and Linux"
 
 ## Open Graph + Twitter Cards
 images = ["card.png"]
@@ -18,7 +18,6 @@ ogLocale = "en_US"
 schemaType = "Organization"
 schemaLogo = "logo-deepdwn.png"
 schemaTwitter = "https://twitter.com/DeepdwnApp"
-schemaLinkedIn = ""
 schemaGitHub = "https://github.com/deepdwn"
 schemaSection = "blog"
 
