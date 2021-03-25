@@ -68,6 +68,8 @@ Shortcut | Description
 {{< keystroke "Ctrl Shift D" >}} |  Duplicate the current line
 {{< keystroke "F9" >}} |  Sort the selected lines
 {{< keystroke "Ctrl F9" >}} |  Sort the selected lines (case-insensitive)
+{{< keystroke "Shift F9" >}} |  Reverse sort the selected lines
+{{< keystroke "Shift Ctrl F9" >}} |  Reverse sort the selected lines (case-insensitive)
 {{< keystroke "Ctrl Shift K" >}} |  Delete the current line
 {{< keystroke "Ctrl-K Ctrl-K" >}} |  Delete to the end of the line
 {{< keystroke "Ctrl-K Ctrl-Backspace" >}} |  Delete to the beginning of the line
