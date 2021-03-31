@@ -37,22 +37,21 @@ You can see the effect of turning this feature on and off in the example text be
 
 ## Power mode performance and options
 
-Power mode has received some performance improvements, especially noticable on low-spec machines. While power mode could (and still can) be turned off to improve CPU and GPU usage, it should now be much better behaved, both while active and while idle.
+Power mode has received some performance improvements, especially noticeable on low-spec machines. While power mode could (and still can) be turned off to improve CPU and GPU usage, it should now be much better behaved, both while active and while idle.
 
 {{< img-simple src="images/power-mode-options.png" alt="Power mode preferences with separate range sliders for screenshake and particle effect intensity" >}}
 
-Additionally, two new sub-settings have been added for power mode, to allow reducing or eliminating the screenshake or particle effects independantly, in case you like one, but not the other. Both can also be turned up slightly from their stock positions.
+Additionally, two new sub-settings have been added for power mode, to allow reducing or eliminating the screenshake or particle effects independently, in case you like one, but not the other. Both can also be turned up slightly from their stock positions.
 
 ## Heading outdenting
 
-When adding a heading via `###` in Deepdwn, the `#` prefix will now be _outdented_, so that the heading text is aligned with the left margin of the editor. The left margin width has been increased to accomodate this feature.
+When adding a heading via `###` in Deepdwn, the `#` prefix will now be _outdented_, so that the heading text is aligned with the left margin of the editor. The left margin width has been increased to accommodate this feature.
 
 **Before**
-{{< img-simple src="images/heading-outdent.png" alt="Editor showing several markdown headings prefixed with the '#' character. Prefix characters are right alingned to page margin, and headings left aligned" >}}
+{{< img-simple src="images/heading-indent.png" alt="Several markdown headings prefixed with the '#' character. Prefix characters and heading content are left aligned to page margin" >}}
 
 **After**
-{{< img-simple src="images/heading-outdent.png" alt="Editor showing several markdown headings prefixed with the '#' character. Prefix characters are right alingned to page margin, and headings left aligned" >}}
-
+{{< img-simple src="images/heading-outdent.png" alt="Several markdown headings prefixed with the '#' character. Prefix characters are right aligned to page margin, and headings left aligned" >}}
 
 This helps make headings stand out while editing, and ensures that the most important part of the heading, the text itself, is in a predictable location.
 
