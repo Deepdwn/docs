@@ -51,7 +51,7 @@ If your file has not been saved, Deepdwn will use the absolute path to your file
 
 Deepdwn now also supports pasting PNG and JPG image data directly.
 
-If you copy an image, or a section of an image, and paste it into the editor, a new file will be created in the same directory as the file (if youl document has been saved). For unsaved markdown documents, the image will be added to your first document directory instead.
+If you copy an image, or a section of an image, and paste it into the editor, a new file will be created in the same directory as the file (if your document has been saved). For unsaved markdown documents, the image will be added to your first document directory instead.
 
 
 ## Preview dark mode
