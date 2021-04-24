@@ -2,8 +2,8 @@
 title: "Version 0.22.0"
 description: "Preferences revamp, preview fonts, bug fixes"
 lead: "Preferences revamp, preview fonts, bug fixes"
-date: 2021-04-17T00:23:01-06:00
-lastmod: 2021-04-17T00:23:01-06:00
+date: 2021-04-24T13:01:01-05:00
+lastmod: 2021-04-24T13:01:01-05:00
 draft: false
 images: []
 contributors: []
@@ -48,7 +48,7 @@ When pressing {{< keystroke "Tab" >}}:
 
 This leads to documents with a mix of tabs and spaces.
 
-With 0.22.0, the {{< keystroke "Tab" >}} will now insert a soft tab, either one or two spaces depending on alignment. 
+With 0.22.0, the {{< keystroke "Tab" >}} key will now insert a soft tab, either one or two spaces depending on alignment. 
 
 A future update will add a setting for tabs vs spaces, as well as the tab size.
 
