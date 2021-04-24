@@ -22,6 +22,11 @@
 
     <p class="lead">{{ .Params.lead | safeHTML }}</p>
       {{ .Content }}
+      
+      <div class="changelog-footer">
+        <a class="itch-button" href="https://billiam.itch.io/deepdwn">Download from itch.io</a>
+      </div>
+
       {{ partial "main/docs-navigation.html" . }}
     </article>
   </div>

@@ -6,13 +6,15 @@
 //layout
 
 //components
-@import "components/fence",
+@import "components/buttons",
+  "components/fence",
   "components/posts",
   "components/sidebar",
   "components/tables",
   "components/typography";
 
 //pages
+@import "pages/changelog";
 
 //vendors
 @import "simple-lightbox/dist/simpleLightbox";
