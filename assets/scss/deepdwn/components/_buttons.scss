@@ -1,10 +1,10 @@
 .itch-button {
   display: inline-block;
-  background-color: red;
   padding: 10px 20px;
   border-radius: 5px;
   color: #efefef;
   background-color: #e01364;
+
   &:hover {
     text-decoration: none;
     color: #fff;
@@ -14,6 +14,7 @@
   @include dark() {
     color: #efefef;
     background-color: #ff247a;
+
     &:hover {
       color: #fff;
       background-color: lighten(#ff247a, 5%);
