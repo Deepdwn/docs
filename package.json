@@ -23,7 +23,7 @@
     "lint:markdown": "markdownlint *.md content/**/*.md",
     "release": "standard-version",
     "release:dry-run": "standard-version --dry-run",
-    "server": "hugo server",
+    "server": "hugo server -D -F",
     "test": "npm run -s lint",
     "env": "env",
     "precheck": "npm version",
