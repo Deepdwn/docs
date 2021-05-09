@@ -24,6 +24,7 @@ code {
   padding-top: 0.125rem;
   padding-bottom: 0.125rem;
   border: 1px solid $brown;
+  white-space: nowrap;
   @include dark() {
     border-color: lighten($body-bg-dark, 30%);
   }
@@ -31,6 +32,7 @@ code {
 
 pre code {
   border: none;
+  white-space: unset;
 }
 
 h1,
