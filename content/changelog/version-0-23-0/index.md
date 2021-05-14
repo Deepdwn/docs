@@ -2,9 +2,9 @@
 title: "Version 0.23.0"
 description: "RTL support, math, songbooks"
 lead: "RTL support, math, songbooks"
-date: 2021-05-12T13:01:01-05:00
-lastmod: 2021-05-12T13:01:01-05:00
-draft: true
+date: 2021-05-14T13:01:01-05:00
+lastmod: 2021-05-14T13:01:01-05:00
+draft: false
 images: ["images/rtl.png"]
 contributors: []
 ---

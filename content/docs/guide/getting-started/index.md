@@ -69,13 +69,15 @@ tags:
   - favorites
   - 🧁 baking
   - musings
+dir: ltr
 ---
+
 # Welcome to my cake post
 ```
 
-This document has the title `My Favorite Cakes`, is in the category `Blog` and has three tags, `favorites`, `🧁 baking`, and `musings`. You can add as few or as many tags as you'd like.
+This document has the title `My Favorite Cakes`, is in the category `Blog` and has three tags, `favorites`, `🧁 baking`, and `musings`. You can add as few or as many tags as you'd like. The document direction is set to left-to-right.
 
-These are the only fields that Deepdwn uses currently, but you can add any other fields you need as well. Many other systems support markdown with the same frontmatter, so you can add what you need to support those systems.
+These fields (`title`, `category`, `tags`, and `dir`) are the only ones that Deepdwn uses currently, but you can add any other fields you need as well. Many other systems support markdown with the same frontmatter, so you can add what you need to support those systems.
 
 Once a file has been saved, its category and tags will be added to the filters panel, and the title (if present) will replace the `Untitled` name in the file list. If no title has been added, the filename will be used instead.
 
