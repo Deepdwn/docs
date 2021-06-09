@@ -15,7 +15,7 @@ Update 0.24 is a feature-packed update that I've been looking forward to for a w
 
 First up, document linking! This is really a collection of features, so let's dive in.
 
-Deepdwn now supports links from one document to another, both  in the editor and preview window.
+Deepdwn now supports links from one document to another, both in the editor and preview window.
 
 This is done using the standard markdown link format:
 
@@ -46,6 +46,9 @@ To make linking to these IDs (much) easier, here comes another new feature.
 
 Deepdwn can now autocomplete links to both documents and their headings. Autocomplete is triggered with {{< keystroke "Ctrl Space" >}}.
 
+
+{{< img-simple src="images/document-autocomplete.png" alt="Popup autocompleting document filenames">}}
+
 Autocomplete will return documents beginning in the same directory as your current file, so your active file will need to be saved first. To link to other directories, you can begin your link with a relative path, like:
 
 ```markdown
@@ -61,8 +64,10 @@ You can also link directly to headings by using {{< keystroke "Ctrl Space" >}} a
 ```markdown
 [My Document](../my_document.md#help
 ```
-Deepdwn's autocomplete will then display a list of headings in that document, and will add the correct ID to your document link.
 
+{{< img-simple src="images/heading-autocomplete.png" alt="Popup autocompleting headings in another document" >}}
+
+Deepdwn's autocomplete will then display a list of headings in that document, and will add the correct ID to your document link.
 
 ### Backlinks
 
@@ -72,15 +77,21 @@ To view a list of documents that have linked to your current document, you can e
 
 Currently, this only shows the number of characters/words/lines in your document, the creation and modification times, and backlinks, if any.
 
+{{< img-simple src="images/info-panel.gif" alt="Info panel toggling, showing backlinks and document data">}}
+
 ## Image preview
 
 In the editor, you can now see a preview of your images by holding the {{< keystroke "Control" >}} key while hovering over them.
 
 This works for both local images (but only if they're within one of your document directories), and remote web images.
 
+{{< img-simple src="images/image-preview.png" alt="Cursor hovering over markdown image tag, with image popup of the Deepdwn logo">}}
+
 ## Exporting
 
 In addition to PDF, Deepdwn can now export your markdown as HTML, both with and without styling (in case you want to incorporate it in some other location)
+
+{{< img-simple src="images/export-menu.png" alt="Preview window with popup menu and the options 'Save as PDF', 'Save as HTML' and 'Save as Unstyled HTML'">}}
 
 ### Export from File menu
 
@@ -91,6 +102,8 @@ Exporting is now available directly from the File menu in the editor, without ha
 Some of Deepdwn's non-standard markdown features are displayed as SVGs, like diagrams, sheet music and guitar tabs (but not math). 
 
 These can now be exported directly from the preview window by right-clicking on them and selecting "Export as SVG" from the context menu, in case you want to use a diagram you've created somewhere else.
+
+{{< img-simple src="images/export-svg.png" alt="Export SVG context menu on top of flow chart">}}
 
 ## YAML error display
 
