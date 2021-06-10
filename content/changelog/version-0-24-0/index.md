@@ -4,7 +4,7 @@ description: "Document linking/autocomplete, and HTML exports"
 lead: "Document linking/autocomplete, and HTML exports"
 date: 2021-06-14T13:01:01-05:00
 lastmod: 2021-06-14T13:01:01-05:00
-draft: true
+draft: false
 images: []
 contributors: []
 ---
@@ -102,9 +102,9 @@ Exporting is now available directly from the File menu in the editor, without ha
 
 ### Export SVGs
 
-Some of Deepdwn's non-standard markdown features are displayed as SVGs, like diagrams, sheet music and guitar tabs (but not math). 
+Some of Deepdwn's non-standard markdown features are rendered as SVGs, like diagrams, sheet music and guitar tabs (but not math).
 
-These can now be exported directly from the preview window by right-clicking on them and selecting "Export as SVG" from the context menu, in case you want to use a diagram you've created somewhere else.
+These SVGs can now be exported directly from the preview window by right-clicking on them and selecting "Export as SVG" from the context menu, in case you want to use a diagram you've created somewhere else.
 
 {{< img-simple src="images/export-svg.png" alt="Export SVG context menu on top of flow chart">}}
 
@@ -117,9 +117,10 @@ Deepdwn will now highlight and warn you about invalid YAML frontmatter at the be
 ## Tweaks
 
 * Removed automatic codeblock language detection from preview window for performance reasons.
-* Added of entire outline view when switching documents.
-* Library updates and patches
-* Increased spacing for active line indicator in high contrast mode
+* Added animation in outline view when switching documents.
+* Increased spacing for active line indicator in high contrast mode.
+* Library updates and patches.
+
 
 ## Bug fixes
 
