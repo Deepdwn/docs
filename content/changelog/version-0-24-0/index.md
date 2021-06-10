@@ -15,6 +15,9 @@ Update 0.24 is a feature-packed update that I've been looking forward to for a w
 
 First up, document linking! This is really a collection of features, so let's dive in.
 
+{{< img-simple src="images/autocomplete.gif" alt="Typing a markdown link and autocompleting the name of a document and heading. Ctrl+clicking the link navigates to the document and heading. Autocompleting an image, and then hovering cursor over image with ctrl held to display a thumbnail of the image.">}}
+
+
 Deepdwn now supports links from one document to another, both in the editor and preview window.
 
 This is done using the standard markdown link format:
@@ -108,6 +111,8 @@ These can now be exported directly from the preview window by right-clicking on 
 ## YAML error display
 
 Deepdwn will now highlight and warn you about invalid YAML frontmatter at the beginning of your markdown documents. The error messages themselves need some work to make them more friendly, but for now you'll have an indicator about what's going on.
+
+{{< img-simple src="images/yaml-validation.png" alt="Yaml indentation error underlined with popup containing 'bad indentation of a mapping entry' error message" >}}
 
 ## Tweaks
 
