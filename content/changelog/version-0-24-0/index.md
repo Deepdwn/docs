@@ -2,8 +2,8 @@
 title: "Version 0.24.0"
 description: "Document linking/autocomplete, and HTML exports"
 lead: "Document linking/autocomplete, and HTML exports"
-date: 2021-06-14T13:01:01-05:00
-lastmod: 2021-06-14T13:01:01-05:00
+date: 2021-06-10T18:01:01-05:00
+lastmod: 2021-06-10T18:01:01-05:00
 draft: false
 images: []
 contributors: []
