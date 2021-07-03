@@ -27,3 +27,4 @@
   {{ $js := $js | minify | fingerprint "sha512" -}}
   <script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous" defer></script>
 {{ end -}}
+<script async defer data-domain="deepdwn.com" src="https://plausible.billiam.org/js/plausible.js"></script>
