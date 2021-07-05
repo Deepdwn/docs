@@ -109,7 +109,9 @@ Shortcut | Description
 {{< keystroke "d/x" >}} | Delete selection
 {{< keystroke "s" >}} | Replace selection
 {{< keystroke "y" >}} | Yank selection
-
+{{< keystroke "zc" >}} | Fold current section
+{{< keystroke "zC" >}} | Fold all sections
+{{< keystroke "zO" >}} | Unfold all sections
 </div>
 
 

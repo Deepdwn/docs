@@ -1,10 +1,10 @@
 ---
 title: "Version 0.25.0"
-description: ""
-lead: ""
-date: 2021-07-06T00:36:01-05:00
-lastmod: 2021-07-06T00:36:01-05:00
-draft: true
+description: "Folding, pinning, file monitoring, scroll improvements"
+lead: "Folding, pinning, file monitoring, scroll improvements"
+date: 2021-07-05T12:12:01-05:00
+lastmod: 2021-07-05T12:12:01-05:00
+draft: false
 images: []
 contributors: []
 ---
@@ -106,17 +106,18 @@ title: My favorite file
 pinned: true
 ```
 
-## Brief highlight when selecting heading from outline
+## Highlight headings when jumping
 
 When clicking headings in the outline view to jump to that position in the editor, the heading will now be highlighted for a moment in the editor.
 
 ## Tweaks
 
-* Nicer display on file search field when focused
+* Improve display of file search field when focused
 * Animation changes for file reordering in file list (ex: when pinning documents)
 * Three periods are required to form ellipses in the preview, rather than two
 * Fixed deleted files remaining in parent and ancestor folders
 * Fixed added files not appearing in ancestor folders
+* Text centered with `-> <-` now uses paragraph tag instead of div in preview.
 * Library and security updates
 
 ## Bugfixes

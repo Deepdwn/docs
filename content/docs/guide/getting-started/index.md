@@ -40,12 +40,11 @@ The `Drafts` filter at the top is always available. Here you'll find files which
 
 The second panel, Files, displays a list of files based on your currently selected filters, or all files if no filters have been selected.
 
-Right clicking these files will display additional options, allowing you to delete files, show their location in your file system, or duplicate them as needed.
+Right clicking these files will display additional options, allowing you to delete files, show their location in your file system, pin them to the top of the list, or duplicate them as needed.
 
 The top of this panel has a search field which will further filter the displayed files as you type. Filenames, and all file content will be considered when searching.
 
 ### Outline panel
-
 
 {{< img-simple src="images/interface-3.png" alt="Application with third panel, Outline, highlighted" >}}
 
@@ -69,13 +68,14 @@ tags:
   - favorites
   - 🧁 baking
   - musings
+pinned: true
 dir: ltr
 ---
 
 # Welcome to my cake post
 ```
 
-This document has the title `My Favorite Cakes`, is in the category `Blog` and has three tags, `favorites`, `🧁 baking`, and `musings`. You can add as few or as many tags as you'd like. The document direction is set to left-to-right.
+This document has the title `My Favorite Cakes`, is in the category `Blog` and has three tags, `favorites`, `🧁 baking`, and `musings`. You can add as few or as many tags as you'd like. The document direction is set to left-to-right, and the document is "pinned" so that it always appears at the top of the file list.
 
 These fields (`title`, `category`, `tags`, and `dir`) are the only ones that Deepdwn uses currently, but you can add any other fields you need as well. Many other systems support markdown with the same frontmatter, so you can add what you need to support those systems.
 
