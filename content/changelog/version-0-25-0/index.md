@@ -13,7 +13,9 @@ Here's another big update that I had planned to be a small update instead. I hop
 
 ## Document folding
 
-Deepdwn now supports persistant document folding.
+Deepdwn now supports persistent document folding.
+
+{{< img-simple src="images/folding.gif" alt="Folding multiple paragraphs of text at headings by adding ellipses after heading text, and unfolding sections by clicking on the ellipses">}}-
 
 With this change, you can collapse entire sections of your markdown documents based on heading level.
 
@@ -68,7 +70,9 @@ These and all other key shortcuts can be found at <https://support.deepdwn.com/d
 
 Deepdwn now knows when files are changed.
 
-If another application updates a file that Deepdwn knows about, the updated version will be immediately visible in Deepdwn. If files have been added or removed, you'll see them immediately in the application, without having to rescan your folders. As such, the rescan folders button has been removed when this feature is enabled
+If another application updates a file that Deepdwn knows about, the updated version will be immediately visible in Deepdwn. If files or folders have been added or removed, you'll see them immediately in the application, without having to rescan your folders. As such, the rescan folders button has been removed _when this feature is enabled_.
+
+{{< img-simple src="images/conflict.png" alt="File conflict dialog with options to save current changes, accept external changes, or keep both versions">}}
 
 If you have unsaved changes to that file, you'll be prompted to choose between keeping your changes, accepting the external changes, or saving a copy in order to keep both. If the file has instead been deleted by another application (and you have unsaved changes), the file will be moved to the Drafts filter with your unsaved changes.
 
@@ -80,7 +84,18 @@ Here, you'll also be able to use poll-based file monitoring. This method is less
 
 Synchronized preview scrolling has been revamped, and is now much smoother. Previously, the preview window would jump immediately to top level elements as you scrolled past them in the editor. With this update, the scroll position will be interpolated between these elements as well. Anyway, it's better now.
 
+#### Old
+
+{{< img-simple src="images/scroll_old.gif" alt="Editor and preview scrolling. Preview scrolling jumps from element to element as editor scrolls.">}}
+
+#### New
+
+{{< img-simple src="images/scroll_new.gif" alt="Editor and preview scrolling. Preview scrolling transitions more smoothly between elements as editor scrolls.">}}
+
+
 ## Document pinning
+
+{{< img-simple src="images/pin.gif" alt="Selecting and unselect 'Pin File' from the file context menu. Pinned file is moved to the beginning of the file list.">}}
 
 Documents can now be pinned the top of the file list panel. Pinned files ignore folder/category/tag filtering (but not search filtering) so that they'll always be visible.
 
