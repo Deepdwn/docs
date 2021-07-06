@@ -65,6 +65,7 @@ Shortcut | Description
 {{< keystroke "Ctrl Shift Space" >}} |  Selects text between brackets (as above), or selects all if no appropriate brackets
 {{< keystroke "Ctrl Shift Up/Down" >}} |  Swap the current line with the one above or below it
 {{< keystroke "Ctrl Shift [" >}} | Fold the current section
+{{< keystroke "Ctrl Shift ]" >}} | Unfold the current section
 {{< keystroke "Ctrl-K Ctrl-1" >}} | Fold all sections
 {{< keystroke "Ctrl-K Ctrl-0" >}} | Unfold all sections
 {{< keystroke "Ctrl-K Ctrl-J" >}} | Unfold all sections

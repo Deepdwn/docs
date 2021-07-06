@@ -64,6 +64,7 @@ Shortcut | Description
 {{< keystroke "Alt c" >}} | Capitalize next word
 {{< keystroke "Alt l" >}} | Lowercase start of next word
 {{< keystroke "Ctrl-x Ctrl-h" >}} | Fold current section
+{{< keystroke "Ctrl-x Ctrl-e" >}} | Toggle current section fold
 {{< keystroke "Ctrl-x Ctrl-t" >}} | Fold all sections
 {{< keystroke "Ctrl-x Ctrl-a" >}} | Unfold all sections
 {{< keystroke "Ctrl /" >}} | Undo

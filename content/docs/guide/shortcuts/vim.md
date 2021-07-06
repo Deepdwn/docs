@@ -110,6 +110,8 @@ Shortcut | Description
 {{< keystroke "s" >}} | Replace selection
 {{< keystroke "y" >}} | Yank selection
 {{< keystroke "zc" >}} | Fold current section
+{{< keystroke "zo" >}} | Unfold current section
+{{< keystroke "za" >}} | Toggle current section folding
 {{< keystroke "zC" >}} | Fold all sections
 {{< keystroke "zO" >}} | Unfold all sections
 </div>
