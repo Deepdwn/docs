@@ -4,7 +4,7 @@
 {{ else }}
   {{ $keyString = .Get 0 }}
 {{ end }}
-
+{{ $keyString := trim $keyString " " }}
 {{ $keys := split $keyString " " }}
 
 <kbd>

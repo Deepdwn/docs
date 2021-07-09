@@ -63,10 +63,6 @@ Shortcut | Description
 {{< keystroke "Ctrl t" >}} | Transpose two characters
 {{< keystroke "Alt c" >}} | Capitalize next word
 {{< keystroke "Alt l" >}} | Lowercase start of next word
-{{< keystroke "Ctrl-x Ctrl-h" >}} | Fold current section
-{{< keystroke "Ctrl-x Ctrl-e" >}} | Toggle current section fold
-{{< keystroke "Ctrl-x Ctrl-t" >}} | Fold all sections
-{{< keystroke "Ctrl-x Ctrl-a" >}} | Unfold all sections
 {{< keystroke "Ctrl /" >}} | Undo
 {{< keystroke "Ctrl-x u" >}} | Undo
 {{< keystroke "Ctrl Shift -" >}} | Undo
@@ -74,3 +70,20 @@ Shortcut | Description
 {{< keystroke "Ctrl Shift z" >}} | Redo
 
 </div>
+
+## Folding
+
+<div class="table">
+
+Shortcut | Description
+---: | :---
+{{< keystroke "Ctrl-x Ctrl-h" >}} | Fold current section
+{{< keystroke "Ctrl-x Ctrl-e" >}} | Toggle current section fold
+{{< keystroke "Ctrl-x Ctrl-t" >}} | Fold all sections
+{{< keystroke "Ctrl-x Ctrl-a" >}} | Unfold all sections
+{{< keystroke "Ctrl-X Ctrl-1" >}} | Fold all sections
+{{< keystroke "Ctrl-X Ctrl-2" >}} | Fold level 2
+{{< keystroke "Ctrl-X Ctrl-3" >}} | Fold level 3
+{{< keystroke "Ctrl-X Ctrl-4" >}} | Fold level 4
+{{< keystroke "Ctrl-X Ctrl-5" >}} | Fold level 5
+{{< keystroke "Ctrl-X Ctrl-6" >}} | Fold level 6
