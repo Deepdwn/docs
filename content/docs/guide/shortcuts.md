@@ -100,3 +100,25 @@ Shortcut | Description
 {{< keystroke "Ctrl-K Ctrl-J" >}} | Unfold all sections
 
 </div>
+
+### Tables
+
+<div class="table">
+
+Shortcut | Description
+--: | :--
+{{< keystroke "Alt Shift Left" >}} | Delete column
+{{< keystroke "Alt Shift Right" >}} | Add column
+{{< keystroke "Alt Shift Up" >}} | Delete row
+{{< keystroke "Alt Shift Down" >}} | Add row
+{{< keystroke "Alt Left" >}} | Move column left
+{{< keystroke "Alt Right" >}} | Move column right
+{{< keystroke "Alt Up" >}} | Move row up
+{{< keystroke "Alt Down" >}} | Move row down
+{{< keystroke "Ctrl Shift A" >}} | Reformat table
+{{< keystroke "F5" >}} | Sort by current column, ascending (_mac_)
+{{< keystroke "Shift F5" >}} | Sort by current column, descending (_mac_)
+{{< keystroke "F9" >}} | Sort by current column, ascending (_win/linux_)
+{{< keystroke "Shift F9" >}} | Sort by current column, descending (_win/linux_)
+
+</div>

@@ -71,7 +71,7 @@ Shortcut | Description
 
 </div>
 
-## Folding
+### Folding
 
 <div class="table">
 
@@ -87,3 +87,25 @@ Shortcut | Description
 {{< keystroke "Ctrl-X Ctrl-4" >}} | Fold level 4
 {{< keystroke "Ctrl-X Ctrl-5" >}} | Fold level 5
 {{< keystroke "Ctrl-X Ctrl-6" >}} | Fold level 6
+
+</div>
+
+### Tables
+
+<div class="table">
+
+Shortcut | Description
+---: | :---
+{{< keystroke "Alt Shift Left" >}} | Delete column
+{{< keystroke "Alt Shift Right" >}} | Add column
+{{< keystroke "Alt Shift Up" >}} | Delete row
+{{< keystroke "Alt Shift Down" >}} | Add row
+{{< keystroke "Alt Left" >}} | Move column left
+{{< keystroke "Alt Right" >}} | Move column right
+{{< keystroke "Alt Up" >}} | Move row up
+{{< keystroke "Alt Down" >}} | Move row down
+{{< keystroke "Ctrl-X Ctrl-C" >}} | Reformat table
+{{< keystroke "Ctrl Alt 6" >}} | Sort by current column, ascending
+{{< keystroke "Ctrl Shift Alt 6" >}} | Sort by current column, descending
+
+</div>

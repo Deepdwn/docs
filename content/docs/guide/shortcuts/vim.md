@@ -131,4 +131,31 @@ Shortcut | Description
 </div>
 
 
+## Tables
 
+<div class="table">
+
+Shortcut | Description
+---: | :---
+{{< keystroke "\tt" >}} | Generate table from header
+{{< keystroke "\tr" >}} | Reformat table
+{{< keystroke "\tdd" >}} | Delete row
+{{< keystroke "\tdc" >}} | Delete column
+{{< keystroke "\tic" >}} | Insert column (after)
+{{< keystroke "\tiC" >}} | Insert column (before)
+{{< keystroke "\ts" >}} | Sort table
+
+</div>
+
+Other table commands:
+
+<div class="table">
+
+Command | Description
+---: | :---
+`Tableize` | Generate table from header
+`TableModeRealign` | Reformat table
+`TableSort`  | Sort by current column (ascending)
+`TableSort!` | Sort by current column (descending)
+
+</div>

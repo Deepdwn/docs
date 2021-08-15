@@ -15,7 +15,7 @@ Here's another big update that I had planned to be a small update instead. I hop
 
 Deepdwn now supports persistent document folding.
 
-{{< img-simple src="images/folding.gif" alt="Folding multiple paragraphs of text at headings by adding ellipses after heading text, and unfolding sections by clicking on the ellipses">}}-
+{{< img-simple src="images/folding.gif" alt="Folding multiple paragraphs of text at headings by adding ellipses after heading text, and unfolding sections by clicking on the ellipses">}}
 
 With this change, you can collapse entire sections of your markdown documents based on heading level.
 
