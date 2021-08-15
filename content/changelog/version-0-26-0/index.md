@@ -1,11 +1,11 @@
 ---
 title: "Version 0.26.0"
-description: "Live table editing edition"
-lead: "Live table editing edition"
-date: 2021-07-15T00:36:01-05:00
-lastmod: 2021-07-15T00:36:01-05:00
-draft: true
-images: []
+description: "Table editing edition"
+lead: "Table editing edition"
+date: 2021-07-15T16:36:01-05:00
+lastmod: 2021-07-15T16:36:01-05:00
+draft: false
+images: ["images/table-social.png"]
 contributors: []
 ---
 
@@ -35,7 +35,6 @@ There are some fonts, too large to include with Deepdwn, where latin characters 
 Sarasa Term UI shown:
 
 {{< img-simple src="images/cjk-table.png" alt="Markdown table with Chinese, English, Japanese, and Korean text using a font which maintains monospace alignment">}}
-
 
 ## Table formatting styles
 
