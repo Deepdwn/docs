@@ -2,8 +2,8 @@
 title: "Version 0.26.0"
 description: "Table editing edition"
 lead: "Table editing edition"
-date: 2021-07-15T16:36:01-05:00
-lastmod: 2021-07-15T16:36:01-05:00
+date: 2021-08-15T16:36:01-05:00
+lastmod: 2021-08-15T16:36:01-05:00
 draft: false
 images: ["images/table-social.png"]
 contributors: []
