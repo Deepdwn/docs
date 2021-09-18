@@ -30,7 +30,7 @@ Similarly, you can delete a pipe character if the column before that character i
 
 When Deepdwn adds spaces to pad out column widths, CJK (Chinese, Japanese and Korean) characters will be treated as exactly twice the width of latin characters.
 
-There are some fonts, too large to include with Deepdwn, where latin characters are exactly half the width relative of CJK characters, such as like [Sarasa Mono](https://picaq.github.io/sarasa/). If you install one of these and use it as your editor font in Deepdwn, your tables will line up perfectly, even with a mix of CJK and non-CJK characters.
+There are some fonts, too large to include with Deepdwn, where latin characters are exactly half the width relative of CJK characters, such as [Sarasa Mono](https://picaq.github.io/sarasa/). If you install one of these and use it as your editor font in Deepdwn, your tables will line up perfectly, even with a mix of CJK and non-CJK characters.
 
 Sarasa Term UI shown:
 
