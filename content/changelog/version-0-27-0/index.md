@@ -4,7 +4,7 @@ description: "Word counting, oh .snap!"
 lead: "Word counting, oh .snap!"
 date: 2021-09-18T11:00:01-05:00
 lastmod: 2021-09-18T11:00:01-05:00
-draft: true
+draft: false
 images: ["images/chart-social.png"]
 contributors: []
 ---
