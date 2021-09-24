@@ -4,7 +4,7 @@ description: "Bugfix for PDF exports"
 lead: "Bugfix for PDF exports"
 date: 2021-09-22T19:09:00-05:00
 lastmod: 2021-09-22T19:09:00-05:00
-draft: true
+draft: false
 images: []
 contributors: []
 ---
