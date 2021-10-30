@@ -14,7 +14,7 @@
 					<div class="card">
 						<div class="card-body">
 							<h2 class="h3"><a class="stretched-link text-body" href="{{ .Permalink }}">{{ .Params.title }}</a></h2>
-							<p>{{ .Params.lead | safeHTML }}</p>
+							<p>{{ .Params.lead | default .Params.description | safeHTML }}</p>
 							{{ partial "main/blog-meta.html" . -}}
 						</div>
 					</div>
