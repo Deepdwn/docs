@@ -13,7 +13,7 @@ contributors: []
 
 Do you find yourself starting documents the same way over and over? Maybe you use the same set of categories or tags, maybe you always add the current date to your blog posts, or maybe you don't like copying YAML every time.
 
-Deepdwn now supports markdown templates, to save you a couple of steps.
+Deepdwn now supports markdown templates to save you a couple of steps.
 
 {{< img-simple src="images/recipes-template.png" alt="Markdown file with the beginnings of a baking recipe, used as a template for future documents" >}}
 
@@ -48,7 +48,7 @@ Deepdwn now supports Mermaid's [class diagrams](https://mermaid-js.github.io/mer
 
 ## LaTeX delimiters
 
-When writing your LaTeX math and chemistry expressions, you can now use single and double dollar sign characters (`$` and `$$`) as delimiters instead ``latex ...``. This improves data portability between Deepdwn and other markdown editors, where these delimiters are more common.
+When writing your LaTeX math and chemistry expressions, you can now use single and double dollar sign characters (`$` and `$$`) as delimiters instead of ``latex ...``. The original format is still supported. This improves data portability between Deepdwn and other markdown editors, where these delimiters are more common.
 
 ## Tweaks
 
