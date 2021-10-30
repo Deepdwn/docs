@@ -2,8 +2,8 @@
 title: "Version 0.29.0"
 description: "Markdown templates"
 lead: ""
-date: 2021-10-23T12:00:01-05:00
-lastmod: 2021-10-19T12:00:01-05:00
+date: 2021-10-30T16:54:01-05:00
+lastmod: 2021-10-30T16:54:01-05:00
 draft: false
 images: []
 contributors: []
