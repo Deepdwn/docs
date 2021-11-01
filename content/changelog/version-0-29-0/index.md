@@ -46,9 +46,6 @@ Deepdwn now supports Mermaid's [class diagrams](https://mermaid-js.github.io/mer
 
 {{< img-simple src="images/class_diagram.png" alt="Class diagram in a code block in markdown on the left, with rendered diagram in preview window on the right. Class diagram shows an association between several classes and their properties and methods" >}}
 
-## LaTeX delimiters
-
-When writing your LaTeX math and chemistry expressions, you can now use single and double dollar sign characters (`$` and `$$`) as delimiters instead of ``latex ...``. The original format is still supported. This improves data portability between Deepdwn and other markdown editors, where these delimiters are more common.
 
 ## Tweaks
 
