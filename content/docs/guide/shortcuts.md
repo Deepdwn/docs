@@ -20,6 +20,7 @@ Shortcut | Description
 ---: | ---
 {{< keystroke "Ctrl ." >}} | Open preferences
 {{< keystroke "Ctrl N" >}}  | New file
+{{< keystroke "Ctrl Shift 1" >}} | New file from first template
 {{< keystroke "Ctrl S" >}} | Save file
 {{< keystroke "Ctrl Shft S" >}} | Save file as
 {{< keystroke "Ctrl Q" >}} | Quit
