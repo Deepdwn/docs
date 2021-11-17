@@ -93,7 +93,7 @@ Press the question mark icon in the toolbar to open a reference document with al
 
 To view your document without seeing markdown syntax and to render charts and music, you can press the preview button in the toolbar to open a new window with your fully rendered document.
 
-The preview will be updated as you add to and edit your document, and can exported to PDF from the save icon in the corner.
+The preview will be updated as you add to and edit your document, and can be exported to PDF or HTML from the save icon in the corner.
 
 ## Options
 
