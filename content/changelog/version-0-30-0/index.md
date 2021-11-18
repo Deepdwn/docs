@@ -59,6 +59,6 @@ This change was originally announced in v0.29, but was missed during release.
 * Fix partially-missing border around the active line in high-contrast mode, when activeline is on a code block
 * Fix incorrect (low-contrast) text selection color in the editor when in dark high-contrast mode
 * Fix disabled slider input elements appearing to become activated when clicked
-* Fix inconsistant spacing between heading prefixes and left margin when big headings setting is enabled
+* Fix inconsistent spacing between heading prefixes and left margin when big headings setting is enabled
 * Fix incorrect color in corner when vertical and horizontal scrollbars are visible together in some locations in both dark and high contrast modes
 * Fix files still appearing in ancestor folders when they had been removed by deleting their parent directory in the file system
