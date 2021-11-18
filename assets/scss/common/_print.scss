@@ -7,19 +7,21 @@
   .header-bar {
     display: none !important;
   }
-  body,
-  body.dark {
-    padding-top: 0 !important;
-    background: #fff;
-  }
+
   .table {
-    th, td {
+    th,
+    td {
       border-top: none;
       padding: 0.2rem;
     }
   }
-  body, body.dark {
+
+  body,
+  body.dark {
+    padding-top: 0 !important;
+    background: #fff;
     color: #333;
+
     .docs-content {
       kbd kbd {
         background-color: #fff;
@@ -27,6 +29,7 @@
         color: #333;
       }
     }
+
     code {
       background-color: #fff;
       color: inherit;
