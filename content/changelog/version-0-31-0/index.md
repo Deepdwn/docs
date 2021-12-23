@@ -31,7 +31,7 @@ In checklists, you can now quickly toggle the checkbox for the current line with
 
 Files with the tag `template` will no longer appear in other tags and categories when filtering. They'll still be visible when the template tag filter has been selected, or when no filters are selected.
 
-A small icon has been added tothe file list to help distinguish them from normal files.
+A small icon has been added to the file list to help distinguish them from normal files.
 
 ## Tweaks
 
