@@ -41,7 +41,7 @@ This change was originally announced in v0.29, but was missed during release.
 
 ## Tweaks
 
-* Folders with names beginning with `.` will no longer appear in the folder list, and any markdown files beneath them (for whatever reason) will will not be displayed. 
+* Folders with names beginning with `.` will no longer appear in the folder list, and any markdown files beneath them (for whatever reason) will not be displayed. 
 * Removed border and background appearance from code blocks created by indentation in the editor. It's not currently possible to make these look the way I'd like while maintaining commonmark behavior.
 * Added a visual "tick" on slider inputs in preferences that displays the default value for the slider
 * The keyboard shortcuts for creating new files from templates have been changed from {{< keystroke "Ctrl-Numpad(number)" >}} to {{< keystroke "Ctrl-Shift-(number)" >}}
@@ -56,7 +56,7 @@ This change was originally announced in v0.29, but was missed during release.
 ## Bug fixes
 
 * Fix last selected tag/category/folder not being selected again when closing and relaunching Deepdwn
-* Fix partially-missing border around the active line in high-contrast mode, when activeline is on a code block
+* Fix partially-missing border around the active line in high-contrast mode, when active line is on a code block
 * Fix incorrect (low-contrast) text selection color in the editor when in dark high-contrast mode
 * Fix disabled slider input elements appearing to become activated when clicked
 * Fix inconsistent spacing between heading prefixes and left margin when big headings setting is enabled

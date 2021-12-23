@@ -79,6 +79,8 @@ Shortcut | Description
 {{< keystroke "Ctrl-K Ctrl-C" >}} |  Scroll current line to center of editor
 {{< keystroke "Ctrl F" >}} |  Find text
 {{< keystroke "Ctrl H" >}} |  Replace text
+{{< keystroke "Ctrl Space" >}} | Autocomplete (links to markdown files or images)
+{{< keystroke "Ctrl Space" >}} | Toggle the checkbox on the current line
 
 </div>
 
