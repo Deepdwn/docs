@@ -2,8 +2,8 @@
 title: "Version 0.31.0"
 description: "Convert rich text to markdown"
 lead: ""
-date: 2021-12-18T12:00:01-05:00
-lastmod: 2021-12-18T12:00:01-05:00
+date: 2021-12-22T20:40:01-05:00
+lastmod: 2021-12-22T20:40:01-05:00
 draft: false
 images: []
 contributors: []
