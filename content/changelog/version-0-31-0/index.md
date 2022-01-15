@@ -35,9 +35,9 @@ A small icon has been added to the file list to help distinguish them from norma
 
 ## Tweaks
 
-* The editor state is better maintained when switching between documents (affects undo history  and scroll position). If you run into issues, especially when changing documents, [please let me know!](https://itch.io/board/1147311/support)
+* When switching between documents, Deepdwn will do a better job maintaining your undo history and scroll position. If you run into issues, especially when changing documents, [please let me know!](https://itch.io/board/1147311/support)
 * Added basic syntax highlighting for block (not inline) LaTeX, using both code backticks and the `$$` delimiters.
-* For draft documents, "Save As" and "Save" will now do the same thing: just save the file. Previously,Save As would create a new file while retaining the unsaved file as well, which was confusing.
+* For draft documents, "Save As" and "Save" will now do the same thing: just save the file. Previously, Save As would create a new file while retaining the unsaved file as well, which was confusing.
 * Slight display change to word count statistics charts (rounded corners).
 * Autosave is now enabled by default for new users
 
