@@ -81,6 +81,7 @@ Shortcut | Description
 {{< keystroke "Ctrl H" >}} |  Replace text
 {{< keystroke "Ctrl Space" >}} | Autocomplete (links to markdown files or images)
 {{< keystroke "Ctrl Space" >}} | Toggle the checkbox on the current line
+{{< keystroke "Ctrl Shift E" >}} | Fix markdown in the current file
 
 </div>
 
