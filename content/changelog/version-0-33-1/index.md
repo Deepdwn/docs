@@ -18,4 +18,4 @@ Just a small patch release right now
 * Added error logging for unexpected application errors. These are located at:
   * Windows: `%appdata%/Deepdwn/logs`
   * Mac: `~/Library/Application Support/Deepdwn/logs`
-  * Linux: `~/.config/Deepdown/logs`
+  * Linux: `~/.config/Deepdwn/logs`
