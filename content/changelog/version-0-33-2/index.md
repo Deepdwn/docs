@@ -2,8 +2,8 @@
 title: "Version 0.33.2"
 description: "Additional error logging, bugfixes"
 lead: ""
-date: 2022-03-22T01:13:00-05:00
-lastmod: 2022-03-22T01:13:00-05:00
+date: 2022-03-21T01:13:00-05:00
+lastmod: 2022-03-21T01:13:00-05:00
 draft: false
 images: []
 contributors: []
