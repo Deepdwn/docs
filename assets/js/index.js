@@ -1,17 +1,28 @@
 var suggestions = document.getElementById('suggestions');
 var userinput = document.getElementById('userinput');
+var changeloginput = document.getElementById('changeloginput');
+var activeSearch = userinput || changeloginput
 
 document.addEventListener('keydown', inputFocus);
+
+function debounce(fn, delay) {
+  var timeout
+
+  return function () {
+    clearTimeout(timeout)
+    timeout = setTimeout(fn.bind(this, arguments), delay)
+  }
+}
 
 function inputFocus(e) {
 
   if (e.keyCode === 191 ) {
     e.preventDefault();
-    userinput.focus();
+    activeSearch.focus();
   }
 
   if (e.keyCode === 27 ) {
-    userinput.blur();
+    activeSearch.blur();
     suggestions.classList.add('d-none');
   }
 
@@ -55,7 +66,6 @@ function suggestionFocus(e){
 
 }
 
-
 /*
 Source:
   - https://github.com/nextapps-de/flexsearch#index-documents-field-search
@@ -93,14 +103,28 @@ Source:
       },
     {{ end -}}
   ];
+  var changelog = [
+    {{ range $index, $page := (where .Site.Pages "Section" "changelog") -}}
+      {
+        id: "changelog-{{ $index }}",
+        href: "{{ .Permalink | absURL }}",
+        title: {{ .Title | jsonify }},
+        description: {{ .Params.description | jsonify }},
+        content: {{ .Plain | jsonify }}
+      },
+    {{ end -}}
+  ];
 
-  index.add(docs);
+  if (userinput) {
+    index.add(docs);
+  } else {
+    index.add(changelog);
+  }
 
-  userinput.addEventListener('input', show_results, true);
+  activeSearch.addEventListener('input', debounce(show_results, 150), true);
   suggestions.addEventListener('click', accept_suggestion, true);
 
   function show_results(){
-
     var value = this.value;
     var results = index.search(value, 5);
     var entry, childs = suggestions.childNodes;
