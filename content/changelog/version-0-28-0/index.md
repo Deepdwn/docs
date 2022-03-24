@@ -1,6 +1,6 @@
 ---
 title: "Version 0.28.0"
-description: ""
+description: "Display improvements, and more drag-and-drop"
 lead: ""
 date: 2021-10-08T12:00:01-05:00
 lastmod: 2021-10-08T12:00:01-05:00
@@ -15,7 +15,7 @@ This update contains a number of smaller display improvements and tweaks. Enjoy!
 
 {{< img-simple src="images/appearance.png" alt="Markdown document with headings of different sizes based on heading level, code blocks and inline code with outlines around them" >}}
 
-In a new feature I'm creatively calling "Big Headings", Deepdwn can now display your markdown headings, uh, bigger. 
+In a new feature I'm creatively calling "Big Headings", Deepdwn can now display your markdown headings, uh, bigger.
 
 Because this is much less compact, and may not be desirable for all users, it can be disabled in the Appearance section in preferences.
 
@@ -32,7 +32,6 @@ In addition to images, Deepdwn now supports drag-and-drop for other filetypes. T
 {{< img-simple src="images/represented-filename.png" alt="Mac window titlebar with filename dropdown showing path to the current file." >}}
 
 Deepdwn now supports a mac-only feature: file representations in window Titles. Mac users can now command-click the filename in the window heading to show a dropdown path to the current file.
-
 
 ## Added abbreviations in markdown
 
