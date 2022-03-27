@@ -2,9 +2,9 @@
 title: "Version 0.34.0"
 description: "Accessibility updates"
 lead: ""
-date: 2022-03-23T21:07:00-05:00
-lastmod: 2022-03-23T21:07:00-05:00
-draft: true
+date: 2022-03-27T11:57:00-05:00
+lastmod: 2022-03-27T11:57:00-05:00
+draft: false
 images: []
 contributors: []
 ---
