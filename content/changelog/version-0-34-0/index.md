@@ -11,9 +11,9 @@ contributors: []
 
 ## New accessibility preferences
 
-A new section has been added to Deepdwn's preferences to house accessibility settings. The existing settings for the tab key behavior (toggling between indenting and navigation), and high-contrast display, have both been moved moved here.
+A new section has been added to Deepdwn's preferences for accessibility settings. The existing settings for the tab key behavior (toggling between indenting and navigation), and high-contrast display, have both been moved here.
 
-Two new options have been added as well:
+Two new options have been added here as well:
 
 1. **Display entire document at once**: By default, Deepdwn hides offscreen content for performance reasons in a way that may interfere with screen readers, in some cases. With this setting enabled, the entire document will be rendered at once which may improve support, at the cost of rendering performance.
 2. **Align heading text**: This setting enables or disables outdented headings. Headings are normally positioned in a way that may interfere with some screen readers, so this setting has been added to improve compatibility if needed.
@@ -26,9 +26,9 @@ If you have suggestions to improve Deepdwn's accessibility, please let me know i
 
 ## Tweaks
 
-* The file list panel will now be automatically scrolled to the active file. This mostly useful/noticeable when you reopen Deepdwn and a document is already active from your previous session.
+* The file list panel will now be automatically scrolled to the active file. This is mostly useful/noticeable when you reopen Deepdwn and a document is already active from your previous session.
 
 ## Bugfixes
 
-* Fixed incorrect "File conflict" text for files with no save conflicts when using screen readers.
-* Fixed a focusing/rendering issue that could result in NVDA skipping read content.
+* Fixed screen readers announcing files were in a file conflict state, when they were not.
+* Fixed a focusing/rendering issue that could result in NVDA skipping content.
