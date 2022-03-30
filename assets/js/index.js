@@ -75,7 +75,6 @@ Source:
 (function(){
 
   var index = new FlexSearch({
-    preset: 'score',
     cache: true,
     doc: {
         id: 'id',
