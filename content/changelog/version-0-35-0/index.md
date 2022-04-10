@@ -38,6 +38,7 @@ Begin typing your tag or category and press {{< keystroke "Ctrl Space" >}} to se
 * Fix file system listening not being correctly initialized on startup in some cases
 * Fix automatic lint fixing not using correct lint configuration
 * Fix badly formatted yaml causing unexpected tags to appear in the library panel sometimes
+* Better handling of non-string types in titles in frontmatter
 * Fix title disappearing in file list when file had yaml metadata, but no title
 * Fix new drafts not showing up immediately when drafts filter was already selected
 * Fix initial empty file not appearing in file list when edited
