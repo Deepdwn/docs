@@ -13,7 +13,7 @@ This version adds improvements to a couple of existing features: HTML-to-markdow
 
 ## HTML Pasting
 
-Converting pasted HTML to markdown has undergone significant changes to support additional elements, and reduce unnecessary escaping.
+Significant changes have been made to the [convert-pasted-HTML-to-markdown feature](https://support.deepdwn.com/changelog/version-0-31-0/) to support additional elements, and reduce unnecessary escaping.
 
 * Support `<var>` elements, imported as italic
 * Support definition lists, imported using compact syntax
