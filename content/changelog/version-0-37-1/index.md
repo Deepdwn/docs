@@ -2,8 +2,8 @@
 title: "Version 0.37.1"
 description: "Mostly bugfix update"
 lead: ""
-date: 2022-12-26T18:01:00-05:00
-lastmod: 2022-12-26T18:01:00-05:00
+date: 2022-12-29T18:01:00-05:00
+lastmod: 2022-12-29T18:01:00-05:00
 draft: false
 images: []
 contributors: []
