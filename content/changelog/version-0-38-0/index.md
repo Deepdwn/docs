@@ -1,6 +1,6 @@
 ---
 title: "Version 0.38.0"
-description: "New Mac build, font selection, many bug fixes"
+description: "Mac ARM build, font selection, many bug fixes"
 lead: ""
 date: 2023-02-05T13:01:00-05:00
 lastmod: 2023-02-05T13:01:00-05:00
@@ -29,7 +29,7 @@ Highlighting the current line can now be disabled in appearance preferences for 
 
 ## Tweaks
 
-* Justified text now supported using inline HTML, ex: `<div style="text-align: justified"></div>`
+* Justified text now supported using inline HTML, ex: `<div style="text-align: justify"></div>`
 
 ## Bug fixes
 
