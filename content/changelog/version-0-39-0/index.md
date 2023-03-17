@@ -2,8 +2,8 @@
 title: "Version 0.39.0"
 description: "Fountain screenplays, autocomplete, new diagrams"
 lead: ""
-date: 2023-03-12T13:01:00-05:00
-lastmod: 2023-03-12T13:01:00-05:00
+date: 2023-03-17T17:40:00-05:00
+lastmod: 2023-03-17T17:40:00-05:00
 draft: false
 images: ["images/039-social.png"]
 contributors: []
