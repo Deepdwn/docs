@@ -7,7 +7,7 @@ lastmod: 2020-10-06T08:48:45+00:00
 draft: false
 images: []
 weight: 50
-menu: 
+menu:
   docs:
     parent: "guide"
 ---
@@ -30,7 +30,7 @@ Shortcut | Description
 {{< keystroke "Ctrl Mousewheel" >}} | Zoom
 {{< keystroke "F11" >}}| Fullscreen mode
 {{< keystroke "Shift F11" >}}| Distraction free mode
-{{< keystroke "Alt" >}} | Show menu temporarily when _Hide Menu Bar_ is enabled. <small>(Win/Linux)</small> 
+{{< keystroke "Alt" >}} | Show menu temporarily when _Hide Menu Bar_ is enabled. <small>(Win/Linux)</small>
 
 </div>
 
@@ -82,6 +82,9 @@ Shortcut | Description
 {{< keystroke "Ctrl Space" >}} | Autocomplete (links to markdown files or images)
 {{< keystroke "Ctrl Space" >}} | Toggle the checkbox on the current line
 {{< keystroke "Ctrl Shift E" >}} | Fix markdown in the current file
+{{< keystroke "Ctrl Shift -" >}} | Move to previous location in history
+{{< keystroke "Ctrl Alt -" >}} | Move to next location in history
+
 
 </div>
 

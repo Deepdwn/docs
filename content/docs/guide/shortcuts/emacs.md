@@ -8,7 +8,7 @@ draft: false
 images: []
 toc: true
 weight: 53
-menu: 
+menu:
   docs:
     parent: "Shortcuts"
 ---
@@ -43,6 +43,10 @@ Shortcut | Description
 {{< keystroke "Alt Shift ," >}} | Move to start of document
 {{< keystroke "Alt Shift ." >}} | Move to end of document
 {{< keystroke "Alt g g" >}} | Go to line
+{{< keystroke "Ctrl-x Ctrl-Space" >}} | Go back
+{{< keystroke "Ctrl-x Ctrl-Left" >}} | Go back
+{{< keystroke "Ctrl-x Ctrl-Right" >}} | Go Forward
+
 
 </div>
 
