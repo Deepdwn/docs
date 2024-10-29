@@ -8,7 +8,7 @@
       "name": "{{ .Site.Params.title }}",
       "logo": "{{ "/" | absURL }}{{ .Site.Params.schemaLogo }}",
       "sameAs": [
-        "{{ .Site.Params.schemaTwitter | safeURL }}",
+        "{{ .Site.Params.schemaBluesky | safeURL }}",
         "{{ .Site.Params.schemaGitHub | safeURL }}"
       ]
     }
@@ -22,7 +22,7 @@
       "url": "{{ "/" | absURL }}",
       "name": "{{ .Site.Params.title }}",
       "sameAs": [
-        "{{ .Site.Params.schemaTwitter | safeURL }}",
+        "{{ .Site.Params.schemaBluesky | safeURL }}",
         "{{ .Site.Params.schemaGitHub | safeURL }}"
       ]
     }
