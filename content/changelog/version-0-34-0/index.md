@@ -22,7 +22,7 @@ Additionally, skip links have been added to the filters, file and outline panels
 
 Lastly, a long standing issue where NVDA could skip reading some content in your documents in browse mode has been fixed. If you've run into this issue in the past, this is a great release to give Deepdwn another try.
 
-If you have suggestions to improve Deepdwn's accessibility, please let me know in the [feature request community forum](https://itch.io/board/1147312/requests), or on twitter ([@DeepdwnApp](https://twitter.com/DeepdwnApp)).
+If you have suggestions to improve Deepdwn's accessibility, please let me know in the [feature request community forum](https://itch.io/board/1147312/requests).
 
 ## Tweaks
 
