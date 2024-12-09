@@ -16,9 +16,10 @@ Mac-specific UI updates have been added to help Deepdwn fit in better in that ec
 ### Open files directly
 
 You can now open markdown and fountain documents in Deepdwn directly from your file explorer, if Deepdwn knows about that folder.
-If those files or _not_ in an existing folder, you'll be asked whether you'd like to add that document's folder first.
+If those files are _not_ in an existing folder, you'll be asked whether you'd like to add that document's folder first.
 
-As a related feature/bugfix, when a folder cannot be added for some reason (for instance, if it has been added already, or is contained by or would contain another existing folder), the reason will now be displayed in a notification instead of failing silently.
+As a related feature/bugfix, when a folder cannot be added for some reason (for instance, if it has been added already,
+or contains/is contained by another existing folder), an error will now be displayed in a notification instead of failing silently.
 
 ### Added PDF export bookmarks
 
@@ -50,8 +51,8 @@ The headings used in your documents will now translate to PDF bookmarks when exp
 
 Some changes have been made to application preferences:
 
-  * Some radio buttons replaced with native dropdowns
-  * Most non-native dropdowns have been replaced with native dropdowns where possible (except the spellcheck language dropdown)
+  * Some radio buttons replaced with dropdowns
+  * For accessibility reasons, some dropdowns have been replaced with their more native implementations (and may be less stylish for it)
   * Replaced color preset dropdown with circular color swatches
 
 ## Other stuff
